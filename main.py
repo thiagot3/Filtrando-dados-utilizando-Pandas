@@ -10,4 +10,4 @@ dados = pd.read_csv('C:\\...\\arquivo.csv',
 dadosPB = dados[(dados.UF == "PB")]
 
 # Exportando para um arquivo Exel
-dadosPB.to_excel(r'C:\\Users\\Thiago\\Desktop\\Transferencias.xlsx', index=False)
+dadosPB.to_excel(r'C:\\...\\arquivo.xlsx', index=False)
